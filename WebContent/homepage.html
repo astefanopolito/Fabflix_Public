@@ -1,0 +1,41 @@
+<!-- This page will be redirected from any url if you are not logged in -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FabFlix</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div id="navbar"></div>
+</header>
+<div class="d-flex flex-column h-75 justify-content-center">
+  <div class="d-flex justify-content-center">
+    <h1>FabFlix</h1>
+  </div>
+  <div class="d-flex justify-content-center">
+    <form id="fulltext_search" method="GET" action="movies_index.html">
+      <div class="mb-3">
+        <input id="fulltext_bar" name="fulltext" placeholder="Search Fablix" type="text" class="autocomplete-searchbox form-control">
+      </div>
+      <div class="mb-3 w-50 mx-auto">
+        <input id="submit_fulltext" type="submit" value="Search" class="form-control btn btn-primary mx-auto">
+      </div>
+      <input type="hidden" name="search_type" value="fulltext">
+    </form>
+  </div>
+</div>
+
+
+<!-- include jQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.devbridge-autocomplete/1.4.11/jquery.autocomplete.min.js"></script>
+<!-- include our own JS file -->
+<script src="homepage.js"></script>
+<script src="navbar.js"></script>
+
+</body>
+</html>

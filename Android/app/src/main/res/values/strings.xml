@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Fabflix Mobile</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">LOGIN</string>
+    <string name="action_sign_in_short">LOGIN</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >2 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="fabflix">Fabflix</string>
+    <string name="year_tag">Year</string>
+    <string name="director_tag">Director</string>
+    <string name="genres_tag">Genres</string>
+    <string name="stars_tag">Stars</string>
+    <string name="search">Search Fabflix</string>
+    <string name="prompt_search">Search</string>
+</resources>
